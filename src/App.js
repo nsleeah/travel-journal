@@ -1,11 +1,14 @@
-
+import React from "react";
 import './App.css';
+import Nav from "./components/Nav";
+import Card from "./components/Card";
 
 function App() {
   return (
-    <>
-    <h1>Hello</h1>
-    </>
+    <div>
+      <Nav/>
+      <Card/>
+    </div>
   );
 }
 
