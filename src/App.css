@@ -2,7 +2,10 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  
 }
+
+/* Navbar Styling */
 
 nav {
   background-color: #F55A5A;
@@ -17,7 +20,6 @@ nav {
 .logo--icon {
     height: 2em;
     color: #FFFFFF;
-  
   }
 
   .nav--title {
@@ -25,8 +27,59 @@ nav {
     color: #FFFFFF;
   }
 
-  img {
-  width: 200px;
-  border-radius: 0.5rem;
+  /* Card Component */
+
+  .card-container {
+    padding-top: 2em;
+    padding-right: 0;
+    padding-bottom: 2em;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
+  .card--details {
+    margin-left: 1.5em; /* Gap Between Images and Text */
+    padding: 0.5em;
+  }
+
+  .card--location-symbol {
+    color: #F55A5A;
+  }
+
+  .card--maps-url {
+    text-decoration: underline;
+    color:#918E9B;
+    font-size: 0.8rem;
+    
+  }
+
+  .card--title{ 
+    font-size: 2rem;
+    margin: 0.25em 0;
+    font-weight: 0.4rem;
+  }
+
+  .card--date {
+    font-weight: bold;
+  }
+
+  .card--text{
+  max-width: 50rem;
+  font-size: 0.75rem;
+  
+  }
+
+
+  img {
+    display: block;
+    width: 30%;
+    border-radius: 0.5rem;
+  }
+
+  
+
+ 
+
+  
