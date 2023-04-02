@@ -1,8 +1,11 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGlobeEurope } from '@fortawesome/free-solid-svg-icons'
+
 const Nav = () => {
     return ( 
         <div>
-            <h1>Nav Component</h1>
+            <FontAwesomeIcon icon={faGlobeEurope} />
         </div>
      );
 }
