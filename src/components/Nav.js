@@ -4,9 +4,10 @@ import { faGlobeEurope } from '@fortawesome/free-solid-svg-icons'
 
 const Nav = () => {
     return ( 
-        <div>
-            <FontAwesomeIcon icon={faGlobeEurope} />
-        </div>
+        <nav>
+            <FontAwesomeIcon icon={faGlobeEurope} className="logo--icon" />
+            <h1 className="nav--title">Leah's Travel Journal</h1>
+        </nav>
      );
 }
  
