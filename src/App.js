@@ -7,7 +7,35 @@ function App() {
   return (
     <div>
       <Nav/>
-      <Card/>
+      <Card
+      title=""
+      location=""
+      googleMapsUrl=""
+      startDate=""
+      endDate=""
+      description=""
+      imageURL=""
+      />
+
+      <Card
+      title=""
+      location=""
+      googleMapsUrl=""
+      startDate=""
+      endDate=""
+      description=""
+      imageURL=""
+      />
+
+      <Card
+      title=""
+      location=""
+      googleMapsUrl=""
+      startDate=""
+      endDate=""
+      description=""
+      imageURL=""
+      />
     </div>
   );
 }
